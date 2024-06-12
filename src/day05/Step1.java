@@ -45,5 +45,22 @@ public class Step1 {
       default : medalColor='A';         // default(그외): 실행문
     }
     System.out.println(ranking+"등 메달의 색깔은"+medalColor+"입니다.");
+
+    String medal = "Gold";
+
+    switch (medal){
+      case "Gold":
+        System.out.println("금메달");
+        break;
+      case "Silver":
+        System.out.println("은메달");
+        break;
+      case "Bronze":
+        System.out.println("동메달");
+        break;
+      default:
+        System.out.println("메달이 없습니다.");
+        break;
+    }
   }
 }
