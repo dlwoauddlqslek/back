@@ -126,12 +126,23 @@ public class Step3 {
 //    }
 //    System.out.println(html);
 
-    System.out.print("[8] 줄수:");
-    int iLine=scanner.nextInt();
-    String html="";
-    for(int cLine=1; cLine<=iLine; cLine++){
+//    System.out.print("[9] 줄수:");
+//    int iLine=scanner.nextInt();
+//    String html="";
+//    for(int cLine=1; cLine<=iLine; cLine++){
+//      for(int blank=1; blank<=cLine-1; blank++){
+//        html+=" ";
+//      }
+//      for(int star=1;star<=(iLine-cLine+1)*2-1;star++){
+//        html+="*";
+//      }
+//      for(int blank=1; blank<=cLine-1; blank++){
+//        html+=" ";
+//      }
+//      html+="\n";
+//    }
+//    System.out.println(html);
 
-    }
 
 
 
