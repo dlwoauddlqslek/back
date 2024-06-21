@@ -9,22 +9,21 @@ public class 제품 {
 
     // 생성자
     public 제품(int 제품코드, String 제품명, int 가격, int 카테고리코드) {
-        boolean f=false;
-        for (int i=0; i<Step1.카테고리.size(); i++){
-            if(카테고리코드==Step1.카테고리.get(i).get카테고리코드()){
+        boolean f = false;
+        for (int i = 0; i < Step1.카테고리.size(); i++) {
+            if (카테고리코드 == Step1.카테고리.get(i).get카테고리코드()) {
                 this.제품코드 = 제품코드;
                 this.제품명 = 제품명;
                 this.가격 = 가격;
                 this.카테고리코드 = 카테고리코드;
-                f=true;
+                f = true;
             }
         }
-        if(f==false){
+        if (f == false) {
             System.out.println("없는 카테고리코드 입니다.");
         }
 
     }
-
 
 
     // 메서드
