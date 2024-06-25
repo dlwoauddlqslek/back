@@ -1,0 +1,14 @@
+인터페이스 x는 추상 메소드 x
+인터페이스 y는 추상 메소드 y
+인터페이스 myinterface는 x,y인터페이스를 상속받았고
+추상 메소드 mymethod
+myinterface를 구현하는 myclass 클래스
+상속받은 x,y메소드와 mymethod 메소드를 재정의
+myclass 클래스 mclass 객체 생성
+myclass 클래스는 myinterface 구현했기 때문에
+인터페이스 X 타입 xclass로 mclass를 타입변환
+오버라이딩 된 x메소드 실행
+인터페이스 Y 타입 yclass로 mclass를 타입변환
+오버라이딩 된 y메소드 실행
+인터메이스 myinterface 타입 iclass로 mclass를 타입변환
+오버라이딩 된 세가지 함수 실행
